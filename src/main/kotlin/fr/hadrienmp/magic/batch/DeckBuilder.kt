@@ -24,7 +24,7 @@ class DeckFactory(private val storage: DeckDescriptionStorage, private val refer
     private fun toDeck(deckDescription: DeckDescription): Deck {
         val cardNumbers = mutableMapOf<Card, Int>()
         for ((cardName, number) in deckDescription.cardNumbers()) {
-            val card = referenceLibrary.getCard(cardName)
+            val card = referenceLibrary.getCard(cardName, SetCode("DDC"))
             cardNumbers.put(card, number)
         }
         return Deck(deckDescription.deckName, cardNumbers)

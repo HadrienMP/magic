@@ -11,10 +11,11 @@ import feign.okhttp.OkHttpClient
 import feign.slf4j.Slf4jLogger
 import fr.hadrienmp.magic.Card
 import fr.hadrienmp.magic.CardName
+import fr.hadrienmp.magic.SetCode
 import java.net.URL
 
 interface ReferenceLibrary {
-    fun getCard(cardName: CardName): Card
+    fun getCard(cardName: CardName, setCode: SetCode): Card
 }
 
 class API : ReferenceLibrary {
@@ -25,8 +26,8 @@ class API : ReferenceLibrary {
             .client(OkHttpClient())
             .target(MtgApi::class.java, "https://api.magicthegathering.io/v1")
 
-    override fun getCard(cardName: CardName): Card {
-        val queryMap = mapOf(Pair("string", cardName.string), Pair("set", "DDC"))
+    override fun getCard(cardName: CardName, setCode: SetCode): Card {
+        val queryMap = mapOf(Pair("string", cardName.string), Pair("set", setCode.string))
         val card = getApiCard(queryMap)
         val strUrl = card.get("imageUrl").toString().replace("\"", "")
         return Card(cardName, URL(strUrl))
