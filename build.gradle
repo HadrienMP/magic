@@ -3,6 +3,7 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     ext.kotlin_version = '1.1.4'
+    ext.feign_version = '8.18.0'
 
     repositories {
         mavenCentral()
@@ -20,6 +21,21 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    compile 'io.magicthegathering:kotlinsdk:1.0.1'
+    compile "com.netflix.feign:feign-core:$feign_version"
+    compile "com.netflix.feign:feign-gson:$feign_version"
+    compile "com.netflix.feign:feign-slf4j:$feign_version"
+    compile "com.netflix.feign:feign-okhttp:$feign_version"
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.8.0'
+
+}
+
+repositories {
+    jcenter()
 }
 
 compileKotlin {

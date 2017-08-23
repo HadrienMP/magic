@@ -1,0 +1,277 @@
+{
+  "name": {
+    "string": "Demonic"
+  },
+  "cardNumbers": [
+    {
+      "first": {
+        "name": {
+          "string": "Swamp"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 24
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Barren Moor"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 2
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Abyssal Gatekeeper"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Abyssal Specter"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Cackling Imp"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Daggerclaw Imp"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Demon\u0027s Jester"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 2
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Dusk Imp"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 2
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Fallen Angel"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Foul Imp"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Kuro, Pitlord"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Lord of the Pit"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Overeager Apprentice"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 2
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Reiver Demon"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Soot Imp"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Souldrinker"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Stinkweed Imp"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Dark Banishing"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Dark Ritual"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 2
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Barter in Blood"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Consume Spirit"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Corrupt"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Cruel Edict"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Demonic Tutor"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Duress"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Promise of Power"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Breeding Pit"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 2
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Oni Possession"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Unholy Strength"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 2
+    },
+    {
+      "first": {
+        "name": {
+          "string": "Demon\u0027s Horn"
+        },
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid\u003d193871\u0026type\u003dcard"
+      },
+      "second": 1
+    }
+  ]
+}

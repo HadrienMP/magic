@@ -1,0 +1,1 @@
+/home/hadrienmp/Projets/workspace/kotlin/magic/src/main/resources
