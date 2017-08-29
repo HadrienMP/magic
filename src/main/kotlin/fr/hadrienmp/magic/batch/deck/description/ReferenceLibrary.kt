@@ -1,4 +1,4 @@
-package fr.hadrienmp.magic.batch
+package fr.hadrienmp.magic.batch.deck.description
 
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
@@ -9,9 +9,9 @@ import feign.gson.GsonDecoder
 import feign.gson.GsonEncoder
 import feign.okhttp.OkHttpClient
 import feign.slf4j.Slf4jLogger
-import fr.hadrienmp.magic.Card
-import fr.hadrienmp.magic.CardName
-import fr.hadrienmp.magic.SetCode
+import fr.hadrienmp.magic.domain.Card
+import fr.hadrienmp.magic.domain.CardName
+import fr.hadrienmp.magic.domain.SetCode
 import java.net.URL
 
 interface ReferenceLibrary {

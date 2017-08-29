@@ -1,9 +1,9 @@
-package fr.hadrienmp.magic.batch
+package fr.hadrienmp.magic.batch.deck.description
 
-import fr.hadrienmp.magic.CardName
-import fr.hadrienmp.magic.DeckName
+import fr.hadrienmp.magic.domain.CardName
+import fr.hadrienmp.magic.domain.DeckName
 
-class DeckDescription(val deckName: DeckName, content: String) {
+class RawDeckDescription(val deckName: DeckName, content: String) {
     private val cardNumbers = toCardNumbers(content)
 
     private fun toCardNumbers(content: String): Map<CardName, Int> {

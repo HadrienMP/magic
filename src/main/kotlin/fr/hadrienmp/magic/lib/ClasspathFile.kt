@@ -1,4 +1,4 @@
-package fr.hadrienmp.magic
+package fr.hadrienmp.magic.lib
 
 import java.io.File
 import java.net.URL
